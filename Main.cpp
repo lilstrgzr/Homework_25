@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
-//Задача 2.
+
 bool polindrome(std::string str) {
 	bool pol = true;
 
@@ -13,7 +13,7 @@ bool polindrome(std::string str) {
 			pol = false;
 	return pol;
 }
-//Задача 3.
+
 int marks(std::string str) {
 	int counter = 0;
 	const int size = 5;
@@ -32,7 +32,7 @@ int marks(std::string str) {
 	}
 	return counter;
 }
-//Задача 4.
+
 std::string search(std::string str, char sym) {
 	for (int i = 0; i < str.length(); i++)
 		if (str[i] == sym)
